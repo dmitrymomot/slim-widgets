@@ -6,7 +6,7 @@ Support widgets for Slim Framework + Plates (Plates is a native PHP template sys
 
 ## Installation
 
-Plates is available via Composer:
+Widgets is available via Composer:
 
 ```json
 {
