@@ -1,0 +1,27 @@
+{
+    "name": "slim-extensions/widgets",
+    "description": "Support widgets for Slim Framework + Plates",
+    "keywords": ["Slim Framework", "framework", "slim", "views", "template", "plates", "widgets"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Momot",
+            "email": "mail@dmomot.com",
+            "role": "developer"
+        }
+    ],
+	"config": {
+		"vendor-dir": "vendor"
+	},
+    "require":{
+        "php":">=5.3.0",
+        "league/plates": "*",
+        "slim/slim": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+			"Slim\Widgets\\": "src/"
+		}
+    },
+    "minimum-stability": "dev"
+}
