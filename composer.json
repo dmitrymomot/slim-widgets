@@ -15,7 +15,7 @@
 	},
     "require":{
         "php":">=5.3.0",
-        "league/plates": "*",
+        "league/plates": "2.*",
         "slim/slim": "2.*"
     },
     "autoload": {
