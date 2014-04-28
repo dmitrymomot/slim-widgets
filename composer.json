@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-			"Slim\\Widgets\\": "src/"
+			"Slim\\Extension\\": ["src/"]
 		}
     },
     "minimum-stability": "dev"

@@ -1,8 +1,9 @@
 <?php
 
-namespace Slim\Widgets\Plates\Extension;
+namespace Slim\Extension\Plates\Extension;
 
-use \Slim\Widgets\Plates\Extension\WidgetInterface;
+use \LogicException;
+use \Slim\Extension\Plates\Extension\WidgetInterface;
 use \League\Plates\Extension\ExtensionInterface;
 
 class Widget implements ExtensionInterface {
@@ -61,7 +62,7 @@ class Widget implements ExtensionInterface {
 		$widget = new $widgetClass($data);
 
 		if ( ! $widget instanceof WidgetInterface) {
-			throw new \LogicException('Class '.$widgetClass.' must imlements interface \App\Plates\Extension\WidgetInterface');
+			throw new LogicException('Class '.$widgetClass.' must imlements interface \App\Plates\Extension\WidgetInterface');
 		}
 
 		return $widget->response();

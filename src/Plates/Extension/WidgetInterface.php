@@ -1,6 +1,6 @@
 <?php
 
-namespace Slim\Widgets\Plates\Extension;
+namespace Slim\Extension\Plates\Extension;
 
 interface WidgetInterface {
 
